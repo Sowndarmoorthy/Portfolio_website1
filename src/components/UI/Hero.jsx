@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='pt-0' id='about'>
         <div className='container pt-14'>
-            <dic className="md:flex items-center justify-between sm:flex-col md:flex-row">
+            <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
                 <div className='w-flex md:basis-1/2'>
                     <h5 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[600] text-[16px]'>
                         Welcome
@@ -104,7 +104,7 @@ const Hero = () => {
                         <h4 className='text-headingColor font-[600] text-[18px]'>Certificates</h4>
                     </div>
                 </div>
-            </dic>
+            </div>
 
         </div>
 
