@@ -3,7 +3,10 @@ import portfolioImg02 from "../images/portfolio-02.png";
 import portfolioImg03 from "../images/portfolio-03.png";
 import portfolioImg05 from "../images/JAVA.png";
 import portfolioImg06 from "../images/DB.png";
+import spm from "../images/spm.png"
 import Certificate from "../images/Certificate.png"
+import workshop from "../images/workshop.jpg"
+import guvi from "../images/guvi.png"
 
 const portfolios = [
   {
@@ -69,13 +72,33 @@ const portfolios = [
     siteUrl: "#",
   },
   {
+    id: "09",
+    imgUrl: guvi,
+    category: "Certificates",
+    title: "Python",
+    description:
+      "I Completed Python Certificate in Guvi & IITM Parvartak Technologies",
+    technologies: ["Python"],
+    siteUrl: "#",
+  },
+  {
     id: "07",
-    imgUrl: portfolioImg06,
+    imgUrl: spm,
     category: "Certificates",
     title: "Software Project Management",
     description:
       "I Completed My Software Project Planing Management System Certificate in Infosys Springboard",
     technologies: ["Agile","Umbrella model"],
+    siteUrl: "#",
+  },
+  {
+    id: "08",
+    imgUrl: workshop,
+    category: "Certificates",
+    title: "AI FOR INDIA 2.0",
+    description:
+      "I have successfully completed a workshop conducted by the Guvi, enhancing my skills and knowledge.",
+    technologies: ["Python","AI"],
     siteUrl: "#",
   },
 ];

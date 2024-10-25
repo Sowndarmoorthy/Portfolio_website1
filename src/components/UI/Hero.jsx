@@ -75,9 +75,10 @@ const Hero = () => {
                 </div>
                 <div className='basis-1/3 mt-10 sm:mt-0'>
                     <figure className='flex items-center justify-center'>
-                        <img src={heroImg} alt="" />
+                        <img src={heroImg} alt="" className='w-full h-full rounded-lg object-contain '/>
                     </figure>
                 </div>
+                
                 <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
