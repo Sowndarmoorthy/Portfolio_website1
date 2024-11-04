@@ -57,7 +57,7 @@ const Services = () => {
                                     <div className='w-full sm:w-1/2 sm:pl-8'>
                                         <div data-aos='fade-left' data-aos-delay='50' data-aos-duration='1300' className='bg-white p-4 rounded
                                         shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
-                                            <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl'>Bsc (2023-2025)</h3>
+                                            <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl'>Bsc (2020-2023)</h3>
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
                                             I previously completed my undergraduate degree in Mathematics at Gobi Arts And Science in 2023 with 6.76 CGPA.
                                             </p>
